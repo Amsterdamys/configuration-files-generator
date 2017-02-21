@@ -1,0 +1,10 @@
+{
+  "name": "weblabspro/configs",
+  "description": "Shaman configs project",
+  "type": "project",
+  "require": {
+    "twig/twig": "~1.0",
+    "codeception/codeception": "2.2.2",
+    "symfony/yaml": "^3.1"
+  }
+}

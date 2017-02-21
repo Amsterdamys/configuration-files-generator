@@ -1,0 +1,15 @@
+.idea
+composer.phar
+composer.lock
+tests/_output/*
+tests/_support/_generated/*
+vendor
+runtime/run.log
+configs/parameters.yml
+configs/private.yml
+local/*
+local/
+php
+runtime/
+tests/_output/
+tests/_support/_generated/

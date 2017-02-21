@@ -1,0 +1,20 @@
+{
+  "db": {
+    "host": "{{DB__HOST}}",
+    "test": {
+      "name": "{{DB__TEST__NAME}}",
+      "username": "{{DB__TEST__USERNAME}}",
+      "password": "{{DB__TEST__PASSWORD}}"
+    },
+    "admin": {
+      "name": "{{DB__ADMIN__NAME}}",
+      "username": "{{DB__ADMIN__USERNAME}}",
+      "password": "{{DB__ADMIN__PASSWORD}}"
+    }
+  },
+  "redis": {
+    "hostname": "{{REDIS__HOST}}",
+    "port": {{REDIS__PORT}},
+    "database": {{REDIS__DATABASE}}
+  }
+}

@@ -1,0 +1,8 @@
+# A line starting with / is treated as an absolute path,
+# otherwise it's relative to the run.php directory.
+---
+
+  # can be used one of the following formats: php, js, json, env
+- template: example
+  format: php
+  destination: "../path-to-php-project"
