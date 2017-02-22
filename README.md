@@ -34,8 +34,19 @@ Run command **php commands/generateCommand.php** (command with test parameters w
 
 Output will look like this:
 
+for windows
+
 ```
 php run.php --DB__TEST__HOST="localhost"  --DB__TEST__NAME="test"  --DB__TEST__USERNAME="root"  --DB__TEST__PASSWORD="password"
+```
+
+for linux
+
+```
+php run.php --DB__TEST__HOST="localhost" \
+--DB__TEST__NAME="test" \
+--DB__TEST__USERNAME="root" \
+--DB__TEST__PASSWORD="password"
 ```
 
 ##### 2. Run generation
