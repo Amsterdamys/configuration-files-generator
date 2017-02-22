@@ -53,5 +53,11 @@ php run.php --DB__TEST__HOST="localhost" \
 
 Copy output command and execute it in your command line
 
-Then config should be generated
+Generated configuration files will be moved to the paths specified in the private.yml
 
+
+## License
+
+WebExtractor is licensed under the MIT license.
+
+Oleksandr Knyga oleksandrknyga@gmail.com
