@@ -4,7 +4,7 @@
 
 ##### 1. composer
 
-`composer install`
+`php composer.phar install`
 
 ##### 2. private config
 
@@ -59,5 +59,7 @@ Generated configuration files will be moved to the paths specified in the privat
 ## License
 
 WebExtractor is licensed under the MIT license.
+
+Eugene Suvorov zarkovsky@yandex.ru
 
 Oleksandr Knyga oleksandrknyga@gmail.com
