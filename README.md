@@ -1,2 +1,6 @@
 - execute composer install
-- clone private.yml.dist to private.yml and fill with your projects
+- clone private.yml.dist to private.yml (set your path in example section)
+- run command php commands/generateCommand.php (command with test parameters will be generated)
+- copy output command and execute it
+- config should be generated
+
