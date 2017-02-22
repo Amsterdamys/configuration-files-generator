@@ -1,3 +1,4 @@
-PROJECT__PATH: '/var/www/shamandev.com'
-PROJECT__HOST: 'www.shamandev.com'
-PROJECT__VERSION: '1.0.0'
+DB__TEST__HOST: "localhost"
+DB__TEST__NAME: "test"
+DB__TEST__USERNAME: "root"
+DB__TEST__PASSWORD: "password"
