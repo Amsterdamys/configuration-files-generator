@@ -24,7 +24,6 @@ DB__TEST__HOST: "localhost"
 DB__TEST__NAME: "test"
 DB__TEST__USERNAME: "root"
 DB__TEST__PASSWORD: "password"
-
 ```
 
 ### Usage
