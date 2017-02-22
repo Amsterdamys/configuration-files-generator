@@ -10,7 +10,7 @@
 
 Clone private.yml.dist to private.yml (set your path in example section)
 
-```
+```yml
 - template: example
   format: php
   destination: "../path-to-php-project/example.php"
@@ -19,7 +19,7 @@ Clone private.yml.dist to private.yml (set your path in example section)
 
 Clone parameters.yml.dist to parameters.yml (there are some tests parameters)
 
-```
+```yml
 DB__TEST__HOST: "localhost"
 DB__TEST__NAME: "test"
 DB__TEST__USERNAME: "root"
