@@ -6,13 +6,15 @@
 
 `git clone https://github.com/weblab-technology/configuration-files-generator.git`
 
-##### 2. composer
+##### 2. install [composer](https://getcomposer.org/)
+
+`curl -sS https://getcomposer.org/installer | php`
 
 `php composer.phar install`
 
 ##### 3. private config
 
-Clone private.yml.dist to private.yml (set your path in example section)
+Clone private.yml.dist to private.yml, now there is an example section here. You may fill this file with all your projects. Don't forget to add templates for them.
 
 ```yml
 - template: example
@@ -21,7 +23,7 @@ Clone private.yml.dist to private.yml (set your path in example section)
 ```
 ##### 4. parameters
 
-Clone parameters.yml.dist to parameters.yml (there are some tests parameters)
+Clone parameters.yml.dist to parameters.yml, now there are some tests parameters. This file is not required, It's used for generating command with these parameters. You may compose such command manually.
 
 ```yml
 DB__TEST__HOST: "localhost"
@@ -55,7 +57,7 @@ php run.php --DB__TEST__HOST="localhost" \
 
 ##### 2. Run generation
 
-Copy output command and execute it in your command line. Of course, you can write this command manually, according to parameters, that are used in templates.
+Copy output command and execute it in your command line.
 
 Generated configuration files will be moved to the paths specified in the private.yml
 
