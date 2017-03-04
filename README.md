@@ -64,7 +64,7 @@ Generated configuration files will be moved to the paths specified in the privat
 
 ## License
 
-WebExtractor is licensed under the MIT license.
+Weblab technology configuration project is licensed under the MIT license.
 
 Eugene Suvorov zarkovsky@yandex.ru
 
