@@ -1,6 +1,6 @@
 {
-  "name": "weblabspro/configs",
-  "description": "Shaman configs project",
+  "name": "weblab.technology/configuration-files-generator",
+  "description": "Weblab technology configuration project",
   "type": "project",
   "require": {
     "twig/twig": "~1.0",
